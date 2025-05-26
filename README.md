@@ -1,1 +1,2 @@
 Atividade prática: Construção de API com observabilidade via Prometheus e Grafana.
+Tives problemas com o Grafana, pois não consegui exportar ele direito para o prometheus e muito menos configurar a URL antes de dar erro ou acesso negado, já que sempre dava esse erro: Post "http://prometheus:9090/api/v1/query": dial tcp: lookup prometheus on 10.51.128.10:53: no such host - There was an error returned querying the Prometheus API ou acesso negado quando eu tentava mudar alguma coisa.
